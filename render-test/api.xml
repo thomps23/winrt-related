@@ -1,0 +1,1177 @@
+<Type Name="PreviewTeamView" FullName="Windows.UI.Core.Preview.Communications.PreviewTeamView">
+
+  <TypeSignature Language="C#" Value="public sealed class PreviewTeamView" />
+
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PreviewTeamView extends System.Object" />
+
+  <TypeSignature Language="DocId" Value="T:Windows.UI.Core.Preview.Communications.PreviewTeamView" />
+
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreviewTeamView" />
+
+  <TypeSignature Language="F#" Value="type PreviewTeamView = class" />
+
+  <AssemblyInfo>
+
+    <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+  </AssemblyInfo>
+
+  <Base>
+
+    <BaseTypeName>System.Object</BaseTypeName>
+
+  </Base>
+
+  <Interfaces />
+
+  <Attributes>
+
+    <Attribute>
+
+      <AttributeName>Windows.Foundation.Metadata.ContractVersion(typeof(Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract), 65536)</AttributeName>
+
+    </Attribute>
+
+    <Attribute>
+
+      <AttributeName>Windows.Foundation.Metadata.MarshalingBehavior(Windows.Foundation.Metadata.MarshalingType.Agile)</AttributeName>
+
+    </Attribute>
+
+    <Attribute>
+
+      <AttributeName>Windows.Foundation.Metadata.Static(typeof(Windows.UI.Core.Preview.Communications.IPreviewTeamViewStatics), 65536, "Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract")</AttributeName>
+
+    </Attribute>
+
+    <Attribute>
+
+      <AttributeName>Windows.Foundation.Metadata.Threading(Windows.Foundation.Metadata.ThreadingModel.Both)</AttributeName>
+
+    </Attribute>
+
+  </Attributes>
+
+  <Docs>
+
+    <summary>To be added.</summary>
+
+    <remarks>To be added.</remarks>
+
+  </Docs>
+
+  <Members>
+
+    <Member MemberName="CleanupRequested">
+
+      <MemberSignature Language="C#" Value="public event Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,Windows.UI.Core.Preview.Communications.PreviewTeamCleanupRequestedEventArgs&gt; CleanupRequested;" />
+
+      <MemberSignature Language="ILAsm" Value=".event class Windows.Foundation.TypedEventHandler`2&lt;class Windows.UI.Core.Preview.Communications.PreviewTeamView, class Windows.UI.Core.Preview.Communications.PreviewTeamCleanupRequestedEventArgs&gt; CleanupRequested" />
+
+      <MemberSignature Language="DocId" Value="E:Windows.UI.Core.Preview.Communications.PreviewTeamView.CleanupRequested" />
+
+      <MemberSignature Language="VB.NET" Value="Public Custom Event CleanupRequested As TypedEventHandler(Of PreviewTeamView, PreviewTeamCleanupRequestedEventArgs) " />
+
+      <MemberSignature Language="F#" Value="member this.CleanupRequested : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, Windows.UI.Core.Preview.Communications.PreviewTeamCleanupRequestedEventArgs&gt; " Usage="member this.CleanupRequested : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, Windows.UI.Core.Preview.Communications.PreviewTeamCleanupRequestedEventArgs&gt; " />
+
+      <MemberType>Event</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>E:Windows.UI.Core.Preview.Communications.IPreviewTeamView.CleanupRequested</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,Windows.UI.Core.Preview.Communications.PreviewTeamCleanupRequestedEventArgs&gt;</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="CommandInvoked">
+
+      <MemberSignature Language="C#" Value="public event Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,Windows.UI.Core.Preview.Communications.PreviewTeamCommandInvokedEventArgs&gt; CommandInvoked;" />
+
+      <MemberSignature Language="ILAsm" Value=".event class Windows.Foundation.TypedEventHandler`2&lt;class Windows.UI.Core.Preview.Communications.PreviewTeamView, class Windows.UI.Core.Preview.Communications.PreviewTeamCommandInvokedEventArgs&gt; CommandInvoked" />
+
+      <MemberSignature Language="DocId" Value="E:Windows.UI.Core.Preview.Communications.PreviewTeamView.CommandInvoked" />
+
+      <MemberSignature Language="VB.NET" Value="Public Custom Event CommandInvoked As TypedEventHandler(Of PreviewTeamView, PreviewTeamCommandInvokedEventArgs) " />
+
+      <MemberSignature Language="F#" Value="member this.CommandInvoked : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, Windows.UI.Core.Preview.Communications.PreviewTeamCommandInvokedEventArgs&gt; " Usage="member this.CommandInvoked : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, Windows.UI.Core.Preview.Communications.PreviewTeamCommandInvokedEventArgs&gt; " />
+
+      <MemberType>Event</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>E:Windows.UI.Core.Preview.Communications.IPreviewTeamView.CommandInvoked</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,Windows.UI.Core.Preview.Communications.PreviewTeamCommandInvokedEventArgs&gt;</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="EndMeetingRequested">
+
+      <MemberSignature Language="C#" Value="public event Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingRequestedEventArgs&gt; EndMeetingRequested;" />
+
+      <MemberSignature Language="ILAsm" Value=".event class Windows.Foundation.TypedEventHandler`2&lt;class Windows.UI.Core.Preview.Communications.PreviewTeamView, class Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingRequestedEventArgs&gt; EndMeetingRequested" />
+
+      <MemberSignature Language="DocId" Value="E:Windows.UI.Core.Preview.Communications.PreviewTeamView.EndMeetingRequested" />
+
+      <MemberSignature Language="VB.NET" Value="Public Custom Event EndMeetingRequested As TypedEventHandler(Of PreviewTeamView, PreviewTeamEndMeetingRequestedEventArgs) " />
+
+      <MemberSignature Language="F#" Value="member this.EndMeetingRequested : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingRequestedEventArgs&gt; " Usage="member this.EndMeetingRequested : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingRequestedEventArgs&gt; " />
+
+      <MemberType>Event</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>E:Windows.UI.Core.Preview.Communications.IPreviewTeamView.EndMeetingRequested</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingRequestedEventArgs&gt;</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="EnterFullScreen">
+
+      <MemberSignature Language="C#" Value="public void EnterFullScreen ();" />
+
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EnterFullScreen() runtime managed" />
+
+      <MemberSignature Language="DocId" Value="M:Windows.UI.Core.Preview.Communications.PreviewTeamView.EnterFullScreen" />
+
+      <MemberSignature Language="VB.NET" Value="Public Sub EnterFullScreen ()" />
+
+      <MemberSignature Language="F#" Value="abstract member EnterFullScreen : unit -&gt; unit&#xA;override this.EnterFullScreen : unit -&gt; unit" Usage="previewTeamView.EnterFullScreen " />
+
+      <MemberType>Method</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>M:Windows.UI.Core.Preview.Communications.IPreviewTeamView.EnterFullScreen</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>System.Void</ReturnType>
+
+      </ReturnValue>
+
+      <Parameters />
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="GetForCurrentView">
+
+      <MemberSignature Language="C#" Value="public static Windows.UI.Core.Preview.Communications.PreviewTeamView GetForCurrentView ();" />
+
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Windows.UI.Core.Preview.Communications.PreviewTeamView GetForCurrentView() runtime managed" />
+
+      <MemberSignature Language="DocId" Value="M:Windows.UI.Core.Preview.Communications.PreviewTeamView.GetForCurrentView" />
+
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetForCurrentView () As PreviewTeamView" />
+
+      <MemberSignature Language="F#" Value="static member GetForCurrentView : unit -&gt; Windows.UI.Core.Preview.Communications.PreviewTeamView" Usage="Windows.UI.Core.Preview.Communications.PreviewTeamView.GetForCurrentView " />
+
+      <MemberType>Method</MemberType>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.UI.Core.Preview.Communications.PreviewTeamView</ReturnType>
+
+      </ReturnValue>
+
+      <Parameters />
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <returns>To be added.</returns>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="IsFullScreen">
+
+      <MemberSignature Language="C#" Value="public bool IsFullScreen { get; }" />
+
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFullScreen" />
+
+      <MemberSignature Language="DocId" Value="P:Windows.UI.Core.Preview.Communications.PreviewTeamView.IsFullScreen" />
+
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFullScreen As Boolean" />
+
+      <MemberSignature Language="F#" Value="member this.IsFullScreen : bool" Usage="IsFullScreen" />
+
+      <MemberType>Property</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>P:Windows.UI.Core.Preview.Communications.IPreviewTeamView.IsFullScreen</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>System.Boolean</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <value>To be added.</value>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="IsFullScreenChanged">
+
+      <MemberSignature Language="C#" Value="public event Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,object&gt; IsFullScreenChanged;" />
+
+      <MemberSignature Language="ILAsm" Value=".event class Windows.Foundation.TypedEventHandler`2&lt;class Windows.UI.Core.Preview.Communications.PreviewTeamView, object&gt; IsFullScreenChanged" />
+
+      <MemberSignature Language="DocId" Value="E:Windows.UI.Core.Preview.Communications.PreviewTeamView.IsFullScreenChanged" />
+
+      <MemberSignature Language="VB.NET" Value="Public Custom Event IsFullScreenChanged As TypedEventHandler(Of PreviewTeamView, Object) " />
+
+      <MemberSignature Language="F#" Value="member this.IsFullScreenChanged : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, obj&gt; " Usage="member this.IsFullScreenChanged : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, System.obj&gt; " />
+
+      <MemberType>Event</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>E:Windows.UI.Core.Preview.Communications.IPreviewTeamView.IsFullScreenChanged</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,System.Object&gt;</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="IsScreenSharing">
+
+      <MemberSignature Language="C#" Value="public bool IsScreenSharing { get; }" />
+
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsScreenSharing" />
+
+      <MemberSignature Language="DocId" Value="P:Windows.UI.Core.Preview.Communications.PreviewTeamView.IsScreenSharing" />
+
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsScreenSharing As Boolean" />
+
+      <MemberSignature Language="F#" Value="member this.IsScreenSharing : bool" Usage="IsScreenSharing" />
+
+      <MemberType>Property</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>P:Windows.UI.Core.Preview.Communications.IPreviewTeamView.IsScreenSharing</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>System.Boolean</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <value>To be added.</value>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="IsScreenSharingChanged">
+
+      <MemberSignature Language="C#" Value="public event Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,object&gt; IsScreenSharingChanged;" />
+
+      <MemberSignature Language="ILAsm" Value=".event class Windows.Foundation.TypedEventHandler`2&lt;class Windows.UI.Core.Preview.Communications.PreviewTeamView, object&gt; IsScreenSharingChanged" />
+
+      <MemberSignature Language="DocId" Value="E:Windows.UI.Core.Preview.Communications.PreviewTeamView.IsScreenSharingChanged" />
+
+      <MemberSignature Language="VB.NET" Value="Public Custom Event IsScreenSharingChanged As TypedEventHandler(Of PreviewTeamView, Object) " />
+
+      <MemberSignature Language="F#" Value="member this.IsScreenSharingChanged : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, obj&gt; " Usage="member this.IsScreenSharingChanged : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, System.obj&gt; " />
+
+      <MemberType>Event</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>E:Windows.UI.Core.Preview.Communications.IPreviewTeamView.IsScreenSharingChanged</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,System.Object&gt;</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="JoinMeetingRequested">
+
+      <MemberSignature Language="C#" Value="public event Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,Windows.UI.Core.Preview.Communications.PreviewTeamJoinMeetingRequestedEventArgs&gt; JoinMeetingRequested;" />
+
+      <MemberSignature Language="ILAsm" Value=".event class Windows.Foundation.TypedEventHandler`2&lt;class Windows.UI.Core.Preview.Communications.PreviewTeamView, class Windows.UI.Core.Preview.Communications.PreviewTeamJoinMeetingRequestedEventArgs&gt; JoinMeetingRequested" />
+
+      <MemberSignature Language="DocId" Value="E:Windows.UI.Core.Preview.Communications.PreviewTeamView.JoinMeetingRequested" />
+
+      <MemberSignature Language="VB.NET" Value="Public Custom Event JoinMeetingRequested As TypedEventHandler(Of PreviewTeamView, PreviewTeamJoinMeetingRequestedEventArgs) " />
+
+      <MemberSignature Language="F#" Value="member this.JoinMeetingRequested : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, Windows.UI.Core.Preview.Communications.PreviewTeamJoinMeetingRequestedEventArgs&gt; " Usage="member this.JoinMeetingRequested : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, Windows.UI.Core.Preview.Communications.PreviewTeamJoinMeetingRequestedEventArgs&gt; " />
+
+      <MemberType>Event</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>E:Windows.UI.Core.Preview.Communications.IPreviewTeamView.JoinMeetingRequested</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,Windows.UI.Core.Preview.Communications.PreviewTeamJoinMeetingRequestedEventArgs&gt;</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="JoinMeetingWithUri">
+
+      <MemberSignature Language="C#" Value="public void JoinMeetingWithUri (Windows.Foundation.Uri meetingUri);" />
+
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void JoinMeetingWithUri([in]class Windows.Foundation.Uri meetingUri) runtime managed" />
+
+      <MemberSignature Language="DocId" Value="M:Windows.UI.Core.Preview.Communications.PreviewTeamView.JoinMeetingWithUri(Windows.Foundation.Uri)" />
+
+      <MemberSignature Language="VB.NET" Value="Public Sub JoinMeetingWithUri (meetingUri As Uri)" />
+
+      <MemberSignature Language="F#" Value="abstract member JoinMeetingWithUri : Windows.Foundation.Uri -&gt; unit&#xA;override this.JoinMeetingWithUri : Windows.Foundation.Uri -&gt; unit" Usage="previewTeamView.JoinMeetingWithUri meetingUri" />
+
+      <MemberType>Method</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>M:Windows.UI.Core.Preview.Communications.IPreviewTeamView.JoinMeetingWithUri(Windows.Foundation.Uri)</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>System.Void</ReturnType>
+
+      </ReturnValue>
+
+      <Parameters>
+
+        <Parameter Name="meetingUri" Type="Windows.Foundation.Uri" />
+
+      </Parameters>
+
+      <Docs>
+
+        <param name="meetingUri">To be added.</param>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="LeaveFullScreen">
+
+      <MemberSignature Language="C#" Value="public void LeaveFullScreen ();" />
+
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LeaveFullScreen() runtime managed" />
+
+      <MemberSignature Language="DocId" Value="M:Windows.UI.Core.Preview.Communications.PreviewTeamView.LeaveFullScreen" />
+
+      <MemberSignature Language="VB.NET" Value="Public Sub LeaveFullScreen ()" />
+
+      <MemberSignature Language="F#" Value="abstract member LeaveFullScreen : unit -&gt; unit&#xA;override this.LeaveFullScreen : unit -&gt; unit" Usage="previewTeamView.LeaveFullScreen " />
+
+      <MemberType>Method</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>M:Windows.UI.Core.Preview.Communications.IPreviewTeamView.LeaveFullScreen</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>System.Void</ReturnType>
+
+      </ReturnValue>
+
+      <Parameters />
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="MeetingInfoDisplayType">
+
+      <MemberSignature Language="C#" Value="public Windows.UI.Core.Preview.Communications.PreviewMeetingInfoDisplayKind MeetingInfoDisplayType { get; }" />
+
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Windows.UI.Core.Preview.Communications.PreviewMeetingInfoDisplayKind MeetingInfoDisplayType" />
+
+      <MemberSignature Language="DocId" Value="P:Windows.UI.Core.Preview.Communications.PreviewTeamView.MeetingInfoDisplayType" />
+
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingInfoDisplayType As PreviewMeetingInfoDisplayKind" />
+
+      <MemberSignature Language="F#" Value="member this.MeetingInfoDisplayType : Windows.UI.Core.Preview.Communications.PreviewMeetingInfoDisplayKind" Usage="MeetingInfoDisplayType" />
+
+      <MemberType>Property</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>P:Windows.UI.Core.Preview.Communications.IPreviewTeamView.MeetingInfoDisplayType</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.UI.Core.Preview.Communications.PreviewMeetingInfoDisplayKind</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <value>To be added.</value>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="MeetingUri">
+
+      <MemberSignature Language="C#" Value="public Windows.Foundation.Uri MeetingUri { get; }" />
+
+      <MemberSignature Language="ILAsm" Value=".property instance class Windows.Foundation.Uri MeetingUri" />
+
+      <MemberSignature Language="DocId" Value="P:Windows.UI.Core.Preview.Communications.PreviewTeamView.MeetingUri" />
+
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingUri As Uri" />
+
+      <MemberSignature Language="F#" Value="member this.MeetingUri : Windows.Foundation.Uri" Usage="MeetingUri" />
+
+      <MemberType>Property</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>P:Windows.UI.Core.Preview.Communications.IPreviewTeamView.MeetingUri</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.Foundation.Uri</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <value>To be added.</value>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="NotifyMeetingEnded">
+
+      <MemberSignature Language="C#" Value="public void NotifyMeetingEnded (Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingKind kind);" />
+
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NotifyMeetingEnded([in]valuetype Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingKind kind) runtime managed" />
+
+      <MemberSignature Language="DocId" Value="M:Windows.UI.Core.Preview.Communications.PreviewTeamView.NotifyMeetingEnded(Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingKind)" />
+
+      <MemberSignature Language="VB.NET" Value="Public Sub NotifyMeetingEnded (kind As PreviewTeamEndMeetingKind)" />
+
+      <MemberSignature Language="F#" Value="abstract member NotifyMeetingEnded : Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingKind -&gt; unit&#xA;override this.NotifyMeetingEnded : Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingKind -&gt; unit" Usage="previewTeamView.NotifyMeetingEnded kind" />
+
+      <MemberType>Method</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>M:Windows.UI.Core.Preview.Communications.IPreviewTeamView.NotifyMeetingEnded(Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingKind)</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>System.Void</ReturnType>
+
+      </ReturnValue>
+
+      <Parameters>
+
+        <Parameter Name="kind" Type="Windows.UI.Core.Preview.Communications.PreviewTeamEndMeetingKind" />
+
+      </Parameters>
+
+      <Docs>
+
+        <param name="kind">To be added.</param>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="RequestForeground">
+
+      <MemberSignature Language="C#" Value="public void RequestForeground ();" />
+
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RequestForeground() runtime managed" />
+
+      <MemberSignature Language="DocId" Value="M:Windows.UI.Core.Preview.Communications.PreviewTeamView.RequestForeground" />
+
+      <MemberSignature Language="VB.NET" Value="Public Sub RequestForeground ()" />
+
+      <MemberSignature Language="F#" Value="abstract member RequestForeground : unit -&gt; unit&#xA;override this.RequestForeground : unit -&gt; unit" Usage="previewTeamView.RequestForeground " />
+
+      <MemberType>Method</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>M:Windows.UI.Core.Preview.Communications.IPreviewTeamView.RequestForeground</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>System.Void</ReturnType>
+
+      </ReturnValue>
+
+      <Parameters />
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="SetButtonLabel">
+
+      <MemberSignature Language="C#" Value="public void SetButtonLabel (string label);" />
+
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetButtonLabel([in]string label) runtime managed" />
+
+      <MemberSignature Language="DocId" Value="M:Windows.UI.Core.Preview.Communications.PreviewTeamView.SetButtonLabel(System.String)" />
+
+      <MemberSignature Language="VB.NET" Value="Public Sub SetButtonLabel (label As String)" />
+
+      <MemberSignature Language="F#" Value="abstract member SetButtonLabel : string -&gt; unit&#xA;override this.SetButtonLabel : string -&gt; unit" Usage="previewTeamView.SetButtonLabel label" />
+
+      <MemberType>Method</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>M:Windows.UI.Core.Preview.Communications.IPreviewTeamView2.SetButtonLabel(System.String)</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>System.Void</ReturnType>
+
+      </ReturnValue>
+
+      <Parameters>
+
+        <Parameter Name="label" Type="System.String" />
+
+      </Parameters>
+
+      <Docs>
+
+        <param name="label">To be added.</param>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="SetTitle">
+
+      <MemberSignature Language="C#" Value="public void SetTitle (string title);" />
+
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetTitle([in]string title) runtime managed" />
+
+      <MemberSignature Language="DocId" Value="M:Windows.UI.Core.Preview.Communications.PreviewTeamView.SetTitle(System.String)" />
+
+      <MemberSignature Language="VB.NET" Value="Public Sub SetTitle (title As String)" />
+
+      <MemberSignature Language="F#" Value="abstract member SetTitle : string -&gt; unit&#xA;override this.SetTitle : string -&gt; unit" Usage="previewTeamView.SetTitle title" />
+
+      <MemberType>Method</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>M:Windows.UI.Core.Preview.Communications.IPreviewTeamView.SetTitle(System.String)</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>System.Void</ReturnType>
+
+      </ReturnValue>
+
+      <Parameters>
+
+        <Parameter Name="title" Type="System.String" />
+
+      </Parameters>
+
+      <Docs>
+
+        <param name="title">To be added.</param>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="SharingScreenBounds">
+
+      <MemberSignature Language="C#" Value="public Windows.Foundation.Rect SharingScreenBounds { get; }" />
+
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Windows.Foundation.Rect SharingScreenBounds" />
+
+      <MemberSignature Language="DocId" Value="P:Windows.UI.Core.Preview.Communications.PreviewTeamView.SharingScreenBounds" />
+
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SharingScreenBounds As Rect" />
+
+      <MemberSignature Language="F#" Value="member this.SharingScreenBounds : Windows.Foundation.Rect" Usage="SharingScreenBounds" />
+
+      <MemberType>Property</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>P:Windows.UI.Core.Preview.Communications.IPreviewTeamView.SharingScreenBounds</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.Foundation.Rect</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <value>To be added.</value>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="SharingScreenBoundsChanged">
+
+      <MemberSignature Language="C#" Value="public event Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,object&gt; SharingScreenBoundsChanged;" />
+
+      <MemberSignature Language="ILAsm" Value=".event class Windows.Foundation.TypedEventHandler`2&lt;class Windows.UI.Core.Preview.Communications.PreviewTeamView, object&gt; SharingScreenBoundsChanged" />
+
+      <MemberSignature Language="DocId" Value="E:Windows.UI.Core.Preview.Communications.PreviewTeamView.SharingScreenBoundsChanged" />
+
+      <MemberSignature Language="VB.NET" Value="Public Custom Event SharingScreenBoundsChanged As TypedEventHandler(Of PreviewTeamView, Object) " />
+
+      <MemberSignature Language="F#" Value="member this.SharingScreenBoundsChanged : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, obj&gt; " Usage="member this.SharingScreenBoundsChanged : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, System.obj&gt; " />
+
+      <MemberType>Event</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>E:Windows.UI.Core.Preview.Communications.IPreviewTeamView.SharingScreenBoundsChanged</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,System.Object&gt;</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="StartSharingScreen">
+
+      <MemberSignature Language="C#" Value="public void StartSharingScreen ();" />
+
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StartSharingScreen() runtime managed" />
+
+      <MemberSignature Language="DocId" Value="M:Windows.UI.Core.Preview.Communications.PreviewTeamView.StartSharingScreen" />
+
+      <MemberSignature Language="VB.NET" Value="Public Sub StartSharingScreen ()" />
+
+      <MemberSignature Language="F#" Value="abstract member StartSharingScreen : unit -&gt; unit&#xA;override this.StartSharingScreen : unit -&gt; unit" Usage="previewTeamView.StartSharingScreen " />
+
+      <MemberType>Method</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>M:Windows.UI.Core.Preview.Communications.IPreviewTeamView.StartSharingScreen</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>System.Void</ReturnType>
+
+      </ReturnValue>
+
+      <Parameters />
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="StopSharingScreen">
+
+      <MemberSignature Language="C#" Value="public void StopSharingScreen ();" />
+
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StopSharingScreen() runtime managed" />
+
+      <MemberSignature Language="DocId" Value="M:Windows.UI.Core.Preview.Communications.PreviewTeamView.StopSharingScreen" />
+
+      <MemberSignature Language="VB.NET" Value="Public Sub StopSharingScreen ()" />
+
+      <MemberSignature Language="F#" Value="abstract member StopSharingScreen : unit -&gt; unit&#xA;override this.StopSharingScreen : unit -&gt; unit" Usage="previewTeamView.StopSharingScreen " />
+
+      <MemberType>Method</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>M:Windows.UI.Core.Preview.Communications.IPreviewTeamView.StopSharingScreen</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>System.Void</ReturnType>
+
+      </ReturnValue>
+
+      <Parameters />
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="SystemState">
+
+      <MemberSignature Language="C#" Value="public Windows.UI.Core.Preview.Communications.PreviewSystemState SystemState { get; }" />
+
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Windows.UI.Core.Preview.Communications.PreviewSystemState SystemState" />
+
+      <MemberSignature Language="DocId" Value="P:Windows.UI.Core.Preview.Communications.PreviewTeamView.SystemState" />
+
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SystemState As PreviewSystemState" />
+
+      <MemberSignature Language="F#" Value="member this.SystemState : Windows.UI.Core.Preview.Communications.PreviewSystemState" Usage="SystemState" />
+
+      <MemberType>Property</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>P:Windows.UI.Core.Preview.Communications.IPreviewTeamView.SystemState</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.UI.Core.Preview.Communications.PreviewSystemState</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <value>To be added.</value>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+    <Member MemberName="SystemStateChanged">
+
+      <MemberSignature Language="C#" Value="public event Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,object&gt; SystemStateChanged;" />
+
+      <MemberSignature Language="ILAsm" Value=".event class Windows.Foundation.TypedEventHandler`2&lt;class Windows.UI.Core.Preview.Communications.PreviewTeamView, object&gt; SystemStateChanged" />
+
+      <MemberSignature Language="DocId" Value="E:Windows.UI.Core.Preview.Communications.PreviewTeamView.SystemStateChanged" />
+
+      <MemberSignature Language="VB.NET" Value="Public Custom Event SystemStateChanged As TypedEventHandler(Of PreviewTeamView, Object) " />
+
+      <MemberSignature Language="F#" Value="member this.SystemStateChanged : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, obj&gt; " Usage="member this.SystemStateChanged : Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView, System.obj&gt; " />
+
+      <MemberType>Event</MemberType>
+
+      <Implements>
+
+        <InterfaceMember>E:Windows.UI.Core.Preview.Communications.IPreviewTeamView.SystemStateChanged</InterfaceMember>
+
+      </Implements>
+
+      <AssemblyInfo>
+
+        <AssemblyName>Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract</AssemblyName>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+      </AssemblyInfo>
+
+      <ReturnValue>
+
+        <ReturnType>Windows.Foundation.TypedEventHandler&lt;Windows.UI.Core.Preview.Communications.PreviewTeamView,System.Object&gt;</ReturnType>
+
+      </ReturnValue>
+
+      <Docs>
+
+        <summary>To be added.</summary>
+
+        <remarks>To be added.</remarks>
+
+      </Docs>
+
+    </Member>
+
+  </Members>
+
+</Type>
